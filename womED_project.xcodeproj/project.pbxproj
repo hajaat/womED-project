@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1892DFEB22F3693400FC6CF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892DFEA22F3693400FC6CF9 /* ViewController.swift */; };
 		18E86CA322F1D90C00F536DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E86CA222F1D90C00F536DF /* AppDelegate.swift */; };
-		18E86CA522F1D90C00F536DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E86CA422F1D90C00F536DF /* ViewController.swift */; };
 		18E86CA822F1D90C00F536DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E86CA622F1D90C00F536DF /* Main.storyboard */; };
 		18E86CAB22F1D90C00F536DF /* womED_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E86CA922F1D90C00F536DF /* womED_project.xcdatamodeld */; };
 		18E86CAD22F1D90D00F536DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E86CAC22F1D90D00F536DF /* Assets.xcassets */; };
@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1892DFEA22F3693400FC6CF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18E86C9F22F1D90C00F536DF /* womED_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = womED_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E86CA222F1D90C00F536DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E86CA422F1D90C00F536DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18E86CA722F1D90C00F536DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E86CAA22F1D90C00F536DF /* womED_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = womED_project.xcdatamodel; sourceTree = "<group>"; };
 		18E86CAC22F1D90D00F536DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				18E86CA222F1D90C00F536DF /* AppDelegate.swift */,
-				18E86CA422F1D90C00F536DF /* ViewController.swift */,
 				18E86CA622F1D90C00F536DF /* Main.storyboard */,
+				1892DFEA22F3693400FC6CF9 /* ViewController.swift */,
 				18E86CAC22F1D90D00F536DF /* Assets.xcassets */,
 				18E86CAE22F1D90D00F536DF /* LaunchScreen.storyboard */,
 				18E86CB122F1D90D00F536DF /* Info.plist */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E86CA522F1D90C00F536DF /* ViewController.swift in Sources */,
+				1892DFEB22F3693400FC6CF9 /* ViewController.swift in Sources */,
 				18E86CA322F1D90C00F536DF /* AppDelegate.swift in Sources */,
 				18E86CAB22F1D90C00F536DF /* womED_project.xcdatamodeld in Sources */,
 			);
@@ -287,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2275DB4ML8;
 				INFOPLIST_FILE = womED_project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2275DB4ML8;
 				INFOPLIST_FILE = womED_project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
